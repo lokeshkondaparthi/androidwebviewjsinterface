@@ -12,8 +12,9 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.Toast;
-/*  todo Internet persmisson :: NO*/
-
+/*  todo Internet persmisson :: Yes*/
+/* Logic took from Phil from https://stackoverflow.com/questions/21053153/how-do-i-handle-a-html-button-click-in-java-instead-of-javascript-on-android?noredirect=1&lq=1
+* */
 public class MainActivity extends AppCompatActivity {
 
     private WebView mWebView;
